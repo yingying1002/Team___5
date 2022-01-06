@@ -220,38 +220,27 @@
 <script type="text/javascript">
 function click10() {
 	document.getElementsByName("searchNum")[0].value = 10;
-	document.getElementsByName("searchNum")[0].style.color = '#0489B1';
+	document.getElementsByName("searchNum")[0].style.color = '#ebb275';
 }
 function click20() {
 	document.getElementsByName("searchNum")[0].value = 20;
-	document.getElementsByName("searchNum")[0].style.color = '#0489B1';
+	document.getElementsByName("searchNum")[0].style.color = '#ebb275';
 }
 function click40() {
 	document.getElementsByName("searchNum")[0].value = 40;
-	document.getElementsByName("searchNum")[0].style.color = '#0489B1';
+	document.getElementsByName("searchNum")[0].style.color = '#ebb275';
 }
 function click80() {
 	document.getElementsByName("searchNum")[0].value = 80;
-	document.getElementsByName("searchNum")[0].style.color = '#0489B1';
+	document.getElementsByName("searchNum")[0].style.color = '#ebb275';
 }
 </script>
 </head>
-<body style='background-color:#0489B1'>
+<body style='background-color:#ebb275'>
 <form action='${requestUri}' method='get'>
 
 <div class = 'box'style = 'position:absolute;margin-top:530px;margin-left:635px;'></div>
-<div class='note'>
-<img src="images/musical-note.png" style = 'position:absolute;width:40px;height:40px;margin-top:520px' >
-</div> 
-<div class='note1'>
-<img src="images/musical-note.png" style = 'position:absolute;width:40px;height:40px;margin-top:520px' >
-</div> 
-<div class='note2'>
-<img src="images/musical-note-2.png" style = 'position:absolute;width:40px;height:40px;margin-top:520px' >
-</div>
-<div class='note3'>
-<img src="images/musical-note-2.png" style = 'position:absolute;width:40px;height:40px;margin-top:520px' >
-</div>  
+ 
 <div>
 <input type='text' class="border-style" id="padding"  
 style='font-size:120%;position:absolute;left:50%;top:48%;
@@ -271,7 +260,7 @@ onfocus="placeholder= '' " onblur="placeholder='請輸入關鍵字'" />
 <button type='button' class='button' name='button80' onclick='click80()' style='border-radius:10px;cursor:pointer;margin-left:52.5px'>80</button>
 </div>
 <div>
-<input type='text' name='searchNum' value='10' style='color:#0489B1;border-style:none;background-color:#0489B1'>
+<input type='text' name='searchNum' value='10' style='color:#ebb275;border-style:none;background-color:#ebb275'>
 </div>
 <div>
 <input type='image' src="images/loupe-2.png" 
@@ -279,7 +268,7 @@ style='position:absolute;width:37px;height:37px;left:50%;top:50%;margin-top:-55p
 margin-left:368px '/>
 </div>
 <div>
-<a href ='http://localhost:8080/Final_Project/TestProject'><img src="images/band-2.png" style='position:absolute;width:350px;height:150px;left:50%;top:50%;margin-top:-265px;
+<a href ='http://localhost:8080/Final_Project/TestProject'><img src="images/Logo.png" style='position:absolute;width:350px;height:150px;left:50%;top:50%;margin-top:-265px;
 margin-left:-175px '></a>
 </div>
 </form>
