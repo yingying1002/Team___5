@@ -1,11 +1,11 @@
 
 import java.util.PriorityQueue;
 
-public class KeywordHeap {
+public class WebHeap {
 	private PriorityQueue<Keyword> heap;
 	
-	public KeywordHeap(){
-		this.heap = new PriorityQueue<Keyword>(10, new KeywordComparator());
+	public WebHeap(){
+		this.heap = new PriorityQueue<Keyword>(10, new WebComparator());
 	}
 	
 	public void add(Keyword k){
