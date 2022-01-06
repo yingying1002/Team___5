@@ -239,9 +239,7 @@ function click80() {
 <body style='background-color:#ebb275'>
 <form action='${requestUri}' method='get'>
 
-<div class = 'box'style = 'position:absolute;margin-top:530px;margin-left:635px;'></div>
- 
-<div>
+
 <input type='text' class="border-style" id="padding"  
 style='font-size:120%;position:absolute;left:50%;top:48%;
 margin-top:-47px;margin-left:-400px;width:800px;height:45px' name='keyword' placeholder='請輸入關鍵字'

@@ -7,19 +7,19 @@ public class WebPage {
 	public String name;
 	public WordCounter counter;
 	public double score;
-	
-	public WebPage(String url,String name){
+
+	public WebPage(String url, String name) {
 		this.url = url;
 		this.name = name;
-		this.counter = new WordCounter(url);	
+		this.counter = new WordCounter(url);
 	}
-	
-	public void setScore(ArrayList<Keyword> keywords) throws IOException{
+
+	public void setScore(ArrayList<Keyword> keywords) throws IOException {
 		score = 0;
 //		3.calculate score
-		for(Keyword k : keywords){	
-			score += k.weight*counter.countKeyword(k.name);
+		for (Keyword k : keywords) {
+			score += k.weight * counter.countKeyword(k.name);
 		}
 	}
-	
+
 }
