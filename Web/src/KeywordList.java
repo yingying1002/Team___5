@@ -36,10 +36,10 @@ public class KeywordList {
 			int j = leftbound;
 			int k = rightbound-1;
 			while(j < k) {
-				while(j < k && lst.get(j).count < lst.get(pivot).count) {
+				while(j < k && lst.get(j).weight < lst.get(pivot).weight) {
 					j++;
 				}	
-				while(j < k && lst.get(k).count > lst.get(pivot).count) {
+				while(j < k && lst.get(k).weight > lst.get(pivot).weight) {
 					k--;
 				}
 				if(j < k) {
