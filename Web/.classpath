@@ -16,5 +16,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/licc/Desktop/tomcat/apache-tomcat-9.0.56/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Users/licc/Desktop/java/lab10/HW10/jsoup-1.13.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
