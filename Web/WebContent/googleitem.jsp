@@ -41,7 +41,7 @@ text-decoration:underline;
 %>
 	</div>
 	<div>
-		<img src="images/band-2.png"
+		<img src="images/Logo.png"
 			style='position: absolute; width: 150px; height: 100px; left: 50%; top: 50%; margin-top: -280px; margin-left: -590px'>
 	</div>
 		<div>
