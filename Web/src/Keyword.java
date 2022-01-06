@@ -1,15 +1,15 @@
 
 public class Keyword {
 	public String name;
-    public int count;
+    public int weight;
     
-    public Keyword(String name,int count){
+    public Keyword(String name,int weight){
 		this.name = name;
-		this.count =count;
+		this.weight =weight;
     }
     
     @Override
     public String toString(){
-    	return "["+name+","+count+"]";
+    	return "["+name+","+weight+"]";
     }
 }
