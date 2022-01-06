@@ -6,9 +6,9 @@ public class WebComparator implements Comparator<Keyword>{
 	public int compare(Keyword o1, Keyword o2){
 		if(o1==null || o2==null) throw new NullPointerException();
 		//1. compare
-		if(o1.count < o2.count) {
+		if(o1.weight < o2.weight) {
 			return -1;
-		}else if(o1.count > o2.count) {
+		}else if(o1.weight > o2.weight) {
 			return 1;
 		}
 		return 0;

@@ -7,6 +7,7 @@ public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
+		System.out.println("InvalidOperation");
 		KeywordList lst = new KeywordList();
 		File file = new File("input.txt");		
 		Scanner scanner = new Scanner(file);

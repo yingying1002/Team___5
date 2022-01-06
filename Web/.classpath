@@ -15,6 +15,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/Users/姿穎/Downloads/apache-tomcat-8.5.73-windows-x64/apache-tomcat-8.5.73/lib/servlet-api.jar"/>
+=======
+>>>>>>> branch 'master' of https://github.com/yingying1002/Team___5.git
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
