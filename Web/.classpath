@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/st970/OneDrive/桌面/tomcat/apache-tomcat-9.0.56/lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="C:/Users/st970/eclipse-workspace/lab11/Web/WebContent/WEB-INF/lib/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/姿穎/git/Team___5/Web/WebContent/WEB-INF/lib/jsoup-1.11.3.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -16,7 +15,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/licc/Desktop/tomcat/apache-tomcat-9.0.56/lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="/Users/licc/Desktop/java/lab10/HW10/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/姿穎/Downloads/apache-tomcat-8.5.73-windows-x64/apache-tomcat-8.5.73/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
