@@ -23,7 +23,7 @@ text-decoration:underline;
 </style>
 </head>
 <body>
-<body style='background-color: #01A9DB'>
+<body style='background-color: #ebb275'>
 <form action='${requestUri}' method='get'>
 
 	<div style='position: absolute;margin-top:190px;margin-left:50px'>
@@ -41,7 +41,7 @@ text-decoration:underline;
 %>
 	</div>
 	<div>
-		<img src="images/band-2.png"
+		<img src="images/Logo.png"
 			style='position: absolute; width: 150px; height: 100px; left: 50%; top: 50%; margin-top: -280px; margin-left: -590px'>
 	</div>
 		<div>
