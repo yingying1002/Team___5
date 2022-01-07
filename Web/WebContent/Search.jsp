@@ -236,7 +236,7 @@ function click80() {
 }
 </script>
 </head>
-<body style='background-color:#ebb275'>
+<body style='background-color:#E4D5BE'>
 <form action='${requestUri}' method='get'>
 
 
@@ -266,7 +266,7 @@ style='position:absolute;width:37px;height:37px;left:50%;top:50%;margin-top:-55p
 margin-left:368px '/>
 </div>
 <div>
-<a href ='http://localhost:8080/Final_Project/TestProject'><img src="images/Logo.png" style='position:absolute;width:350px;height:150px;left:50%;top:50%;margin-top:-265px;
+<a href ='http://localhost:8080/Final_Project/TestProject'><img src="images/Logo-2.png" style='position:absolute;width:350px;height:150px;left:50%;top:50%;margin-top:-265px;
 margin-left:-175px '></a>
 </div>
 </form>
