@@ -99,6 +99,13 @@ public class GoogleQuery
 
 			{
 				String citeUrl = li.select("a").get(0).attr("href");
+				if(citeUrl.startsWith("/url?q=")) {
+					citeUrl=citeUrl.replace("url?q=", "");
+				}
+				String[] splittedString =citeUrl.split("&sa");
+				if(splittedString.length >1) {
+					citeUrl = splittedString[0];
+				}
 				String title = li.select("a").get(0).select(".vvjwJb").text();
 				if(title.equals("")) {
 					continue;
