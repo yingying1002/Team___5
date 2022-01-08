@@ -88,7 +88,7 @@ public class GoogleQuery
 		Document doc = Jsoup.parse(content);
 		System.out.println(doc.text());
 		Elements lis = doc.select("div");
-//		 System.out.println(lis);
+     	//System.out.println(lis);
 		lis = lis.select(".kCrYT");
 		// System.out.println(lis.size());
 		
@@ -99,13 +99,6 @@ public class GoogleQuery
 
 			{
 				String citeUrl = li.select("a").get(0).attr("href");
-				if(citeUrl.startsWith("/url?q=")) {
-					citeUrl=citeUrl.replace("url?q=", "");
-				}
-				String[] splittedString =citeUrl.split("&sa");
-				if(splittedString.length >1) {
-					citeUrl = splittedString[0];
-				}
 				String title = li.select("a").get(0).select(".vvjwJb").text();
 				if(title.equals("")) {
 					continue;
@@ -129,6 +122,7 @@ public class GoogleQuery
 		return retVal;
 
 	}
+	
 
 	
 
