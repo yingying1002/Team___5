@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class KeywordList {
-	private ArrayList<Keyword> lst;
+	private ArrayList<Keyword> lst;//偷偷改成public
 	
 	public KeywordList(){
 		this.lst = new ArrayList<Keyword>();
@@ -29,28 +29,24 @@ public class KeywordList {
 	
 	private void quickSort(int leftbound, int rightbound){
 		//1. implement quickSort algorithm
-		if(leftbound >= rightbound) {
-			return;
-		}else {
-			int pivot = rightbound;
-			int j = leftbound;
-			int k = rightbound-1;
-			while(j < k) {
-				while(j < k && lst.get(j).weight < lst.get(pivot).weight) {
-					j++;
-				}	
-				while(j < k && lst.get(k).weight > lst.get(pivot).weight) {
-					k--;
+		if(leftbound<rightbound)
+		{
+		    int pivot = lst.get(rightbound).count;
+		    int j=leftbound;
+			for(j=leftbound; j<=rightbound - 1;j++) {
+				
+				if(lst.get(j).count>pivot)
+				{
+					swap(pivot,j);
 				}
-				if(j < k) {
-					swap(j,k);
-					}
+				if(leftbound>=rightbound) {
+					return;
+				}
 			}
-			swap(j,pivot);
-			quickSort(leftbound,j-1);
-			quickSort(j+1,rightbound);
+			quickSort(leftbound,j-1);//再去從原先pivot右邊找出新的排序
+			quickSort(j+1,rightbound);//原先pivot左邊找出新的排序
+
 		}
-		
 	}
 
 	

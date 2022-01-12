@@ -35,7 +35,7 @@ body {
 				String[][] orderList = (String[][]) request.getAttribute("query");
 			for (int i = 0; i < orderList.length; i++) {
 				String s = orderList[i][1];
-				s = s.substring(7);
+				
 			%>
 
 			<a href='<%=s%>'><%=orderList[i][0]%> </a> <br>連結<br> <br>
